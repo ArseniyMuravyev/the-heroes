@@ -4,3 +4,9 @@ export type IconLink = {
   link: string;
   icon: ReactElement;
 };
+
+export type HeroCard = {
+  title: string;
+  src: string;
+  text: string;
+};
