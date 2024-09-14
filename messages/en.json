@@ -1,5 +1,49 @@
 {
-  "Main": {
-    "Heading": "Hello World!"
+  "Common": {
+    "biography": "Biography",
+    "facts": "Interesting Facts",
+    "books": "Favorite Books"
+  },
+  "Leonardo Da Vinci": {
+    "name": "Leonardo da Vinci",
+    "preview": "Leonardo da Vinci is the greatest artist, sculptor, architect, inventor, writer, musician, a man who has succeeded in a phenomenal number of directions. He was ahead of his time by several centuries, made discoveries that would be rediscovered many years later. He wasn't a genius. His main gift was observation and interest in literally everything that was happening at the level of obsession.",
+    "biography": "Biography of da Vinci",
+    "facts": "Facts about da Vinci",
+    "books": "Books about da Vinci"
+  },
+  "Steve Jobs": {
+    "name": "Steve Jobs",
+    "preview": "",
+    "biography": "",
+    "facts": "",
+    "books": ""
+  },
+  "Elon Musk": {
+    "name": "Elon Musk",
+    "preview": "",
+    "biography": "",
+    "facts": "",
+    "books": ""
+  },
+  "Albert Einstein": {
+    "name": "Albert Einsten",
+    "preview": "",
+    "biography": "",
+    "facts": "",
+    "books": ""
+  },
+  "Alexander The Great": {
+    "name": "Alexander The Great",
+    "preview": "",
+    "biography": "",
+    "facts": "",
+    "books": ""
+  },
+  "Winston Churchill": {
+    "name": "Winston Churchill",
+    "preview": "",
+    "biography": "",
+    "facts": "",
+    "books": ""
   }
 }
