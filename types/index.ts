@@ -8,5 +8,7 @@ export type IconLink = {
 export type HeroCard = {
   title: string;
   src: string;
-  photos: string[];
+  images: string[];
+  facts: string[];
+  books: string[];
 };

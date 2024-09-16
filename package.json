@@ -11,6 +11,8 @@
   "dependencies": {
     "@remixicon/react": "^4.2.0",
     "clsx": "^2.1.1",
+    "embla-carousel-autoplay": "^8.3.0",
+    "embla-carousel-react": "^8.3.0",
     "framer-motion": "^11.5.4",
     "next": "14.2.9",
     "next-intl": "^3.19.1",

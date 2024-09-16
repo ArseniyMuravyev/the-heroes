@@ -4,7 +4,10 @@ import Image from "next/image";
 
 export const Logo: FC = () => {
   return (
-    <Link href="/" className="text-4xl font-bold flex gap-2 items-center">
+    <Link
+      href="/"
+      className="text-4xl font-bold flex gap-2 items-center text-white"
+    >
       <span>The Heroes</span>
       <div className="relative w-7 h-7">
         <Image src="/icons/logo.svg" alt="logo image" fill />

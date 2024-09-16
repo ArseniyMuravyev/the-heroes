@@ -3,7 +3,7 @@ import { RiSearchLine } from "@remixicon/react";
 
 export const Search: FC = () => {
   return (
-    <button className="">
+    <button className="text-white">
       <RiSearchLine size={24} />
     </button>
   );

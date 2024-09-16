@@ -37,7 +37,7 @@ export default async function RootLayout({ children }: Readonly<Props>) {
       >
         <NextIntlClientProvider messages={messages}>
           <Header />
-          <main className="flex flex-col w-full items-center my-8 md:my-16 text-black px-2 md:px-8">
+          <main className="flex flex-col w-full items-center my-8 md:my-16 text-black px-3 md:px-9 box-border overflow-hidden break-words">
             {children}
           </main>
           <Footer />

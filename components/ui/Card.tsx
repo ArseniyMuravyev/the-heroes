@@ -1,11 +1,11 @@
 import Image from "next/image";
 import { memo, Dispatch, SetStateAction } from "react";
 import { cn } from "@/lib/utils";
-import Link from "next/link";
 import { formatForLink } from "@/lib/utils";
 import { HeroCard } from "@/types";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export const Card = memo(
   ({
