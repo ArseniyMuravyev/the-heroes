@@ -10,7 +10,7 @@ export function FocusCards({ cards }: { cards: HeroCard[] }) {
   const t = useTranslations();
 
   return (
-    <div className="flex flex-col justify-center items-center gap-10 md:gap-20 w-full mx-auto w-full">
+    <div className="flex flex-col justify-center items-center gap-10 md:gap-20 mx-auto w-full">
       {cards.map((card, index) => (
         <div
           key={card.title}

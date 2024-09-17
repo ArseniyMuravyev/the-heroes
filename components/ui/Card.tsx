@@ -28,7 +28,7 @@ export const Card = memo(
         onMouseEnter={() => setHovered(index)}
         onMouseLeave={() => setHovered(null)}
         className={cn(
-          "rounded-lg relative bg-gray-100 dark:bg-neutral-900 overflow-hidden h-96 w-full md:h-[520px] transition-all duration-300 ease-out w-96",
+          "rounded-lg relative bg-gray-100 dark:bg-neutral-900 overflow-hidden h-[520px] transition-all duration-300 ease-out w-96",
           hovered !== null && hovered !== index && "blur-sm scale-[0.98]",
         )}
       >

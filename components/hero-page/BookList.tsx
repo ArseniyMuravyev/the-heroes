@@ -12,7 +12,7 @@ export const BookList: FC<Props> = ({ card }) => {
   return (
     <section className="w-full md:w-3/4 xl:w-1/2">
       <Heading type="h3">Common.books</Heading>
-      <ul className="list-disc">
+      <ul className="list-disc ml-4">
         {card.books.map((book) => (
           <li key={book}>{t(book)}</li>
         ))}

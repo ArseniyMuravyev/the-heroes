@@ -11,8 +11,9 @@ export const Biography: FC<Props> = ({ card }) => {
   return (
     <section className="w-full md:w-3/4 xl:w-1/2">
       <Heading type="h3">Common.biography</Heading>
-      <Paragraph>{`${card.title}.biography.para1`}</Paragraph>
-      <Paragraph>{`${card.title}.biography.para2`}</Paragraph>
+      {card.biography.map((fact) => (
+        <Paragraph key={fact}>{`${card.title}.biography.${fact}`}</Paragraph>
+      ))}
     </section>
   );
 };

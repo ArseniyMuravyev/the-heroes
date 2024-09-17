@@ -12,9 +12,11 @@ export const InterestingFacts: FC<Props> = ({ card }) => {
   return (
     <section className="w-full md:w-3/4 xl:w-1/2">
       <Heading type="h3">Common.facts</Heading>
-      <ul className="list-disc">
+      <ul className="list-disc ml-4">
         {card.facts.map((fact) => (
-          <li key={fact}>{t(`${card.title}.facts.${fact}`)}</li>
+          <li key={fact} className="my-2">
+            {t(`${card.title}.facts.${fact}`)}
+          </li>
         ))}
       </ul>
     </section>

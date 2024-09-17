@@ -7,8 +7,15 @@
   "Leonardo Da Vinci": {
     "name": "Leonardo da Vinci",
     "preview": "Leonardo da Vinci is the greatest artist, sculptor, architect, inventor, writer, musician, a man who has succeeded in a phenomenal number of directions. He was ahead of his time by several centuries, made discoveries that would be rediscovered many years later. He wasn't a genius. His main gift was observation and interest in literally everything that was happening at the level of obsession.",
-    "biography": "Biography of da Vinci",
-    "facts": "Facts about da Vinci",
+    "biography": {
+      "para1": "Many people mistakenly believe that \"da Vinci\" is the surname of a great artist. In fact, it literally translates to \"from Vinci\". Vinci is a small town in the vicinity of Florence. By the way, the city exists to this day, its population numbers 14.3 thousand people. So \"da Vinci\" is not a surname, but an indication of where Leonardo is from.",
+      "para2": "Leonardo da Vinci was the bastard (illegitimate son) of Piero, the hereditary notary. At that time, it was possible to make an illegitimate son legitimate by signing a number of documents and passing some bureaucratic tests. But for the rest of his life, Da Vinci will remain a bastard. There is no exact information why his father did not recognize him. Most likely, this is due to the fact that if Leonardo had become a legitimate son, he would have been forced to continue his father's business, which did not attract him at all.",
+      "para3": "Leonardo began his career in the workshop of Verocchio. There he studied drawing, sketching and sculpture. It was from this period of time that the first works of da Vinci reached us: \"The Baptism of Christ\" and \"The Annunciation\". In the painting \"The Baptism of Christ\" da Vinci depicted an angel at the bottom left. The other angel was depicted by Leonardo Verocchio's teacher. When Verocchio saw the angel da Vinci, the teacher realized the superiority of his student and gave up drawing forever. Vasari, the earliest biographer of da Vinci, writes: \"Amazed, Verrocchio abandoned his brush and never returned to painting.\" Already here we see the talent of a young artist. But it is noteworthy that the paintings are not perfect. This proves once again that the young da Vinci was not a gifted genius. He undoubtedly had great talent. But hundreds of other artists had the same talent. But it was Da Vinci who was remembered by history as one of the greatest artists in history. And this is absolutely due to his constant work and incredible curiosity."
+    },
+    "facts": {
+      "fact1": "Leonardo da Vinci was gay and did not hide it, despite the fact that it was illegal at the time. He even went to prison for it once, but stayed there only a few days.",
+      "fact2": "Da Vinci loved bright clothes. He loved the color pink and always wore clothes of that color."
+    },
     "books": "Books about da Vinci"
   },
   "Steve Jobs": {
