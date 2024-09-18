@@ -14,7 +14,9 @@ export const BookList: FC<Props> = ({ card }) => {
       <Heading type="h3">Common.books</Heading>
       <ul className="list-disc ml-4">
         {card.books.map((book) => (
-          <li key={book}>{t(book)}</li>
+          <li key={book} className="my-2">
+            {t(`${card.title}.books.${book}`)}
+          </li>
         ))}
       </ul>
     </section>

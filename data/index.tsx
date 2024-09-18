@@ -4,6 +4,7 @@ import { RiGithubFill, RiTelegramLine } from "@remixicon/react";
 export const heroCards: HeroCard[] = [
   {
     title: "Leonardo Da Vinci",
+    titleRu: "Леонардо да Винчи",
     src: "/images/leonardo-da-vinci.webp",
     images: [
       "/images/leonardo-da-vinci.webp",
@@ -11,7 +12,7 @@ export const heroCards: HeroCard[] = [
       "/images/leonardo-da-vinci-2.webp",
     ],
     biography: ["para1", "para2", "para3", "para4", "para5"],
-    books: [""],
+    books: ["book1", "book2"],
     facts: [
       "fact1",
       "fact2",
@@ -26,6 +27,7 @@ export const heroCards: HeroCard[] = [
   },
   {
     title: "Alexander The Great",
+    titleRu: "Александр Македонский",
     src: "/images/alexander-the-great.jpg",
     images: [""],
     biography: ["para1", "para2", "para3", "para4"],
@@ -34,6 +36,7 @@ export const heroCards: HeroCard[] = [
   },
   {
     title: "Winston Churchill",
+    titleRu: "Уинстон Черчилль",
     src: "/images/winston-churchill.jpg",
     images: [""],
     biography: ["para1", "para2", "para3", "para4"],
@@ -42,6 +45,7 @@ export const heroCards: HeroCard[] = [
   },
   {
     title: "Elon Musk",
+    titleRu: "Илон Маск",
     src: "/images/elon-musk.jpg",
     images: [""],
     biography: ["para1", "para2", "para3", "para4"],
@@ -50,6 +54,7 @@ export const heroCards: HeroCard[] = [
   },
   {
     title: "Steve Jobs",
+    titleRu: "Стив Джобс",
     src: "/images/steve-jobs.jpeg",
     images: [""],
     biography: ["para1", "para2", "para3", "para4"],
@@ -58,21 +63,11 @@ export const heroCards: HeroCard[] = [
   },
   {
     title: "Albert Einstein",
+    titleRu: "Альберт Эйнштейн",
     src: "/images/albert-einstein.jpeg",
     images: [""],
     biography: ["para1", "para2", "para3", "para4"],
     books: [""],
     facts: [""],
-  },
-];
-
-export const footerLinks: IconLink[] = [
-  {
-    link: "https://github.com/ArseniyMuravyev",
-    icon: <RiGithubFill size={28} />,
-  },
-  {
-    link: "https://t.me/arseniyMuravyev",
-    icon: <RiTelegramLine size={28} />,
   },
 ];

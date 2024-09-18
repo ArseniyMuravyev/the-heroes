@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "@/styles/globals.css";
 import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
 import { getMessages, getLocale } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 
@@ -40,7 +39,6 @@ export default async function RootLayout({ children }: Readonly<Props>) {
           <main className="flex flex-col w-full items-center my-8 md:my-16 text-black px-3 md:px-9 box-border overflow-hidden break-words">
             {children}
           </main>
-          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

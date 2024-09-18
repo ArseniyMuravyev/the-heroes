@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Logo } from "../common/Logo";
-import { Search } from "./Search";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { RiGithubFill } from "@remixicon/react";
 
 export const Header: FC = () => {
   return (
@@ -9,7 +9,12 @@ export const Header: FC = () => {
       <Logo />
       <div className="flex gap-3 items-center">
         <LanguageSwitcher />
-        <Search />
+        <a
+          className="rounded-lg border border-black border-1 p-1"
+          href="https://github.com/ArseniyMuravyev/the-heroes"
+        >
+          <RiGithubFill size={28} />
+        </a>
       </div>
     </header>
   );
