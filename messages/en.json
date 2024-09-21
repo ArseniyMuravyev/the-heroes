@@ -4,7 +4,8 @@
     "facts": "Interesting Facts",
     "books": "Favorite Books",
     "search_placeholder": "Search for a hero...",
-    "search_not_found": "Hero not found :("
+    "search_not_found": "Hero not found :(",
+    "more": "Read More..."
   },
   "Leonardo Da Vinci": {
     "name": "Leonardo da Vinci",
@@ -56,7 +57,9 @@
   "Alexander The Great": {
     "name": "Alexander The Great",
     "preview": "Alexander the Great is undoubtedly the most powerful man of his time and one of the most talented generals in history. At the age of 20, he was the ruler of one of the greatest empires in the history of mankind. His enemies called him \"Alexander the Damned\". The allies worshipped him like a real God. Alexander's teacher was Aristotle himself.",
-    "biography": "",
+    "biography": {
+      "para1": "Alexander the Great is the son of the great King Philip II of Macedon. Alexander spent almost all of his childhood with his mother, as Tsar Philip was constantly on campaigns. In 343 n 342 BC, Philip decided to send his son along with other noble youths to the city of Mieza. From that time until 340 BC, Alexander's mentor was Aristotle himself."
+    },
     "facts": "",
     "books": ""
   },

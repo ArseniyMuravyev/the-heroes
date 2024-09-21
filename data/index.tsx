@@ -1,15 +1,14 @@
-import { HeroCard, IconLink } from "@/types";
-import { RiGithubFill, RiTelegramLine } from "@remixicon/react";
+import { HeroCard } from "@/types";
 
 export const heroCards: HeroCard[] = [
   {
     title: "Leonardo Da Vinci",
     titleRu: "Леонардо да Винчи",
-    src: "/images/leonardo-da-vinci.webp",
+    src: "/leonardo-da-vinci.webp",
     images: [
-      "/images/leonardo-da-vinci.webp",
-      "/images/leonardo-da-vinci-1.jpg",
-      "/images/leonardo-da-vinci-2.webp",
+      "/leonardo-da-vinci.webp",
+      "/leonardo-da-vinci-1.jpg",
+      "/leonardo-da-vinci-2.webp",
     ],
     biography: ["para1", "para2", "para3", "para4", "para5"],
     books: ["book1", "book2"],
@@ -28,8 +27,12 @@ export const heroCards: HeroCard[] = [
   {
     title: "Alexander The Great",
     titleRu: "Александр Македонский",
-    src: "/images/alexander-the-great.jpg",
-    images: [""],
+    src: "/alexander-the-great.jpg",
+    images: [
+      "/alexander-the-great.jpg",
+      "/alexander-the-great-1.jpg",
+      "/alexander-the-great-2.jpg",
+    ],
     biography: ["para1", "para2", "para3", "para4"],
     books: [""],
     facts: [""],
@@ -37,7 +40,7 @@ export const heroCards: HeroCard[] = [
   {
     title: "Winston Churchill",
     titleRu: "Уинстон Черчилль",
-    src: "/images/winston-churchill.jpg",
+    src: "/winston-churchill.jpg",
     images: [""],
     biography: ["para1", "para2", "para3", "para4"],
     books: [""],
@@ -46,7 +49,7 @@ export const heroCards: HeroCard[] = [
   {
     title: "Elon Musk",
     titleRu: "Илон Маск",
-    src: "/images/elon-musk.jpg",
+    src: "/elon-musk.jpg",
     images: [""],
     biography: ["para1", "para2", "para3", "para4"],
     books: [""],
@@ -55,7 +58,7 @@ export const heroCards: HeroCard[] = [
   {
     title: "Steve Jobs",
     titleRu: "Стив Джобс",
-    src: "/images/steve-jobs.jpeg",
+    src: "/steve-jobs.jpeg",
     images: [""],
     biography: ["para1", "para2", "para3", "para4"],
     books: [""],
@@ -64,7 +67,7 @@ export const heroCards: HeroCard[] = [
   {
     title: "Albert Einstein",
     titleRu: "Альберт Эйнштейн",
-    src: "/images/albert-einstein.jpeg",
+    src: "/albert-einstein.jpeg",
     images: [""],
     biography: ["para1", "para2", "para3", "para4"],
     books: [""],

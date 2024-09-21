@@ -32,7 +32,7 @@ export function FocusCards({ cards }: { cards: HeroCard[] }) {
               hovered={hovered}
               setHovered={setHovered}
             />
-            <p className="text-black max-w-2xl text-xl md:text-2xl">
+            <p className="max-w-2xl text-xl md:text-2xl">
               {t(`${card.title}.preview`)}
             </p>
           </div>

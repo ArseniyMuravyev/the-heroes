@@ -40,6 +40,17 @@ export const Card = memo(
         />
         <div
           className={cn(
+            "absolute inset-0 flex items-end py-8 px-4 transition-opacity duration-300",
+            hovered === index ? "opacity-0" : "opacity-100",
+          )}
+        >
+          <span className="text-xl font-bold absolute right-4 bottom-4 z-[5]">
+            {t("Common.more")}
+          </span>
+        </div>
+
+        <div
+          className={cn(
             "absolute inset-0 bg-black/50 flex items-end py-8 px-4 transition-opacity duration-300",
             hovered === index ? "opacity-100" : "opacity-0",
           )}
