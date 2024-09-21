@@ -56,13 +56,13 @@ export const Slider: FC<Props> = ({ images }) => {
         </div>
       </div>
       <button
-        className="absolute left-0 top-1/2 transform h-8 rounded-xl hover:bg-[#1a222f] mx-1 -mt-[10px] -translate-y-1/2 bg-[#111927] text-white p-2 group flex items-center justify-center"
+        className="absolute left-0 top-1/2 transform h-8 rounded-xl hover:bg-[#1a222f] mx-1 -mt-[10px] -translate-y-1/2 bg-zinc-900 text-zinc-100 dark:bg-orange-50 dark:text-zinc-900 p-2 group flex items-center justify-center"
         onClick={scrollPrev}
       >
         <RiArrowLeftLine />
       </button>
       <button
-        className="absolute right-0 top-1/2 transform h-8 rounded-xl hover:bg-[#1a222f] mx-1 -mt-[10px] -translate-y-1/2 bg-[#111927] text-white p-2 group flex items-center justify-center"
+        className="absolute right-0 top-1/2 transform h-8 rounded-xl hover:bg-[#1a222f] mx-1 -mt-[10px] -translate-y-1/2 bg-zinc-900 text-zinc-100 dark:bg-orange-50 dark:text-zinc-900 darl: p-2 group flex items-center justify-center"
         onClick={scrollNext}
       >
         <RiArrowRightLine />
@@ -73,8 +73,8 @@ export const Slider: FC<Props> = ({ images }) => {
             key={index}
             className={`h-1 w-10 mx-1 ${
               index === selectedIndex
-                ? "bg-black rounded-xl"
-                : "bg-gray-300 rounded-xl"
+                ? "bg-zinc-900 dark:bg-orange-300 rounded-xl"
+                : "bg-zinc-300 dark:bg-zinc-300 rounded-xl"
             } transition-all duration-500 ease-in-out`}
           ></div>
         ))}

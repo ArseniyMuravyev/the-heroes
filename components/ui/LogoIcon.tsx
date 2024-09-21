@@ -10,7 +10,7 @@ export const LogoIcon: FC = () => {
       height="64px"
       viewBox="0 0 260 260"
       enableBackground="new 0 0 260 260"
-      className="fill-zinc-900 dark:fill-zinc-300 w-7 h-7"
+      className="fill-zinc-900 dark:fill-zinc-300 w-6 h-6 md:w-7 md:h-7"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g

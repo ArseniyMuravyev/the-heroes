@@ -19,6 +19,7 @@ const geistMono = localFont({
 
 type Props = {
   children: React.ReactNode;
+  params: { locale: string };
 };
 
 export const metadata: Metadata = {
@@ -26,10 +27,11 @@ export const metadata: Metadata = {
   description: "Here is the history of great people",
 };
 
-export default async function RootLayout({ children }: Readonly<Props>) {
+export default async function RootLayout({
+  children,
+  params: { locale },
+}: Readonly<Props>) {
   const messages = await getMessages();
-  const locale = await getLocale();
-
   return (
     <html lang={locale}>
       <body

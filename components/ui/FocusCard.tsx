@@ -5,10 +5,15 @@ import { HeroCard } from "@/types";
 import { Card } from "./Card";
 import { useTranslations } from "next-intl";
 import { Search } from "./Search";
+import { usePathname } from "next/navigation";
+import { formatForLink } from "@/lib/utils";
+import Link from "next/link";
+import { RiArrowRightLine } from "@remixicon/react";
 
 export function FocusCards({ cards }: { cards: HeroCard[] }) {
   const [hovered, setHovered] = useState<number | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
+  const pathname = usePathname();
   const t = useTranslations();
 
   const filteredCards = cards.filter(
@@ -33,7 +38,14 @@ export function FocusCards({ cards }: { cards: HeroCard[] }) {
               setHovered={setHovered}
             />
             <p className="max-w-2xl text-xl md:text-2xl">
-              {t(`${card.title}.preview`)}
+              <span>{t(`${card.title}.preview`)}</span>
+              <Link
+                href={`${pathname}/${formatForLink(card.title)}`}
+                className="text-orange-500 ml-1 font-bold inline-flex gap-1 items-center"
+              >
+                {t("Common.more")}
+                <RiArrowRightLine size={16} />
+              </Link>
             </p>
           </div>
         ))

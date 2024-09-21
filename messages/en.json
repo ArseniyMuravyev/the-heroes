@@ -5,7 +5,9 @@
     "books": "Favorite Books",
     "search_placeholder": "Search for a hero...",
     "search_not_found": "Hero not found :(",
-    "more": "Read More..."
+    "more": "Read More",
+    "not-found": "Something went wrong :(",
+    "go-back": "Go back to the home page"
   },
   "Leonardo Da Vinci": {
     "name": "Leonardo da Vinci",
