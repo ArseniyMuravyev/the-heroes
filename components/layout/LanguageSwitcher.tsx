@@ -21,7 +21,7 @@ export const LanguageSwitcher: FC = () => {
   return (
     <select
       onChange={handleChange}
-      className="bg-transparent focus:outline-none text-2xl mt-1 borde-none"
+      className="bg-transparent focus:outline-none text-2xl mt-1 border-[1px] border-zinc-500 px-2 cursor-pointer rounded-lg"
     >
       <option value={isEnglish ? "en" : "ru"}>{isEnglish ? "🇬🇧" : "🇷🇺"}</option>
       <option value={isEnglish ? "ru" : "en"}>{isEnglish ? "🇷🇺" : "🇬🇧"}</option>
