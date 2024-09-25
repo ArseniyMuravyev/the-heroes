@@ -2,7 +2,7 @@ import Image from "next/image";
 import { memo, Dispatch, SetStateAction } from "react";
 import { cn } from "@/lib/utils";
 import { formatForLink } from "@/lib/utils";
-import { HeroCard } from "@/types";
+import { HeroCard } from "@/lib/types";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import Link from "next/link";

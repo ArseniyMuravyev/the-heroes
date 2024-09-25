@@ -45,8 +45,15 @@
   "Elon Musk": {
     "name": "Elon Musk",
     "preview": "CEO, just think about it, 6 companies!!! This list includes: Twitter (X), SpaceX, Tesla, NeuroLink, The Boeing Company and SolarCity. One of the most influential people of our time. Elon Musk became the first person in history whose personal fortune exceeded $ 300 billion. He is also the father of at least 12 children. Elon Musk is undoubtedly a great man, a man of the future.",
-    "biography": "",
-    "facts": "",
+    "biography": {
+      "para1": "Elon Musk was born in South Africa, in Pretoria. His father was an engineer and for a while mined and sold emeralds. My mother was a model. It would seem that parents have such status jobs, so they should live in a big way. But my father's business quickly exhausted itself, and the modeling business does not bring stable income. It cannot be said that the Musk family was poor. But they certainly weren't rich either, rather they were the same average middle-class family.",
+      "para2": "Elon grew up a shy boy and had almost no friends at school. He had a younger brother, Kimball, and a sister, Tosca. Musk fell in love with reading at an early age and read several dozen encyclopedias. However, this did not add to his popularity at school. Ilon was bullied by his peers and once even had his nose broken. When Ilon was 10 years old, he received as a gift his first computer and at the same time his second passion - programming. Reading and programming were Musk's main activities in his free time from school. At the age of 12, he developed his Blastar game and sold it. This is how the young businessman earned his first 500 dollars.",
+      "para3": "As a student, Elon moved to Canada, where he enrolled at Queens University. She studied there for two years, then transferred to the University of Pennsylvania, and then to Stanford. When he was already a student at Stanford University, the Internet boom began, in which Max saw a great opportunity. Elon dropped out of university and founded his first company with his brother Kimball - Zip2. Zip2 was engaged in the development of online travel guides for newspapers. Before the company achieved success, Elon could not afford to rent an apartment and slept right in the small office where the development was carried out. Elon will carry this line with him in years. Only now he will not sleep in a small office, but in a huge Tesla car factory, and not because he has no money, but because he devotes himself to his favorite business.",
+      "para4": "Zip 2 was developing at a rapid pace. Elon, along with Kimball, signed a contract with The New York Times and The Chicago Tribune. In February 1999, Compaq acquired Zip2 for $307 million, and Elon Musk became a multi-millionaire at the age of 27."
+    },
+    "facts": {
+      "fact1": "Elon's hair began to fall out at an early age. Because of this, he had a hair transplant operation."
+    },
     "books": ""
   },
   "Albert Einstein": {
@@ -60,9 +67,14 @@
     "name": "Alexander The Great",
     "preview": "Alexander the Great is undoubtedly the most powerful man of his time and one of the most talented generals in history. At the age of 20, he was the ruler of one of the greatest empires in the history of mankind. His enemies called him \"Alexander the Damned\". The allies worshipped him like a real God. Alexander's teacher was Aristotle himself.",
     "biography": {
-      "para1": "Alexander the Great is the son of the great King Philip II of Macedon. Alexander spent almost all of his childhood with his mother, as Tsar Philip was constantly on campaigns. In 343 n 342 BC, Philip decided to send his son along with other noble youths to the city of Mieza. From that time until 340 BC, Alexander's mentor was Aristotle himself."
+      "para1": "Alexander the Great is the son of the great King Philip II of Macedon. Alexander spent almost all of his childhood with his mother, as Tsar Philip was constantly on campaigns. In 343 or 342 BC, Philip decided to send his son along with other noble youths to the city of Mieza. From that time until 340 BC, Alexander's mentor was Aristotle himself. Alexander was very quick-tempered and sensitive, but at the same time he showed curiosity and diligence.",
+      "para2": "From an early age, Alexander demonstrated his talent. The story of Bucephalus the horse is widely spread. According to Plutarch, at the age of 12, Alexander saddled a wayward horse because he realized that the animal was afraid of its own shadow. After that, Bucephalus became Alexander's favorite horse, with whom he went through more than one war. One day the Persian barbarians kidnapped Bucephalus. Upon learning of this, Alexander vowed to exterminate all the people if they did not return the horse. The horse was returned, of course.",
+      "para3": "When Alexander was 20 years old, his father Philip died. Alexander officially became king of Macedonia. At that time, Macedonia was already a powerful and large state that controlled Thrace, part of Illyria, the entire Aegean coast and all of Greece except Sparta. After Philip's death, uprisings broke out in Greece and Thebes. Alexander harshly suppressed the riots."
     },
-    "facts": "",
+    "facts": {
+      "fact1": "Some sources say that Alexander the Great had a phenomenal memory and knew the name of every person in his army, which numbered more than 40 thousand people at its peak.",
+      "fact2": "Alexander founded the city and named it after his beloved horse Bucephalus. This city exists to this day and is located on the territory of modern Pakistan."
+    },
     "books": ""
   },
   "Winston Churchill": {

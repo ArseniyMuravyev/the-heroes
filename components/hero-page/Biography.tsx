@@ -1,4 +1,4 @@
-import { HeroCard } from "@/types";
+import { HeroCard } from "@/lib/types";
 import { Paragraph } from "../common/Paragraph";
 import { FC } from "react";
 import { Heading } from "../common/Heading";

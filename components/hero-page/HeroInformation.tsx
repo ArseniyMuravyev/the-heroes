@@ -3,7 +3,7 @@
 import { FC } from "react";
 import { useParams } from "next/navigation";
 import { formatFromLink } from "@/lib/utils";
-import { heroCards } from "@/data";
+import { heroCards } from "@/lib/data";
 import { Slider } from "@/components/common/Slider";
 import { InterestingFacts } from "./InterestingFacts";
 import { BookList } from "./BookList";

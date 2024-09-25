@@ -1,4 +1,4 @@
-import { HeroCard } from "@/types";
+import { HeroCard } from "@/lib/types";
 import { FC } from "react";
 import { Heading } from "../common/Heading";
 import { useTranslations } from "next-intl";

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { HeroCard } from "@/types";
+import { HeroCard } from "@/lib/types";
 import { Card } from "./Card";
 import { useTranslations } from "next-intl";
 import { Search } from "./Search";
