@@ -1,30 +1,30 @@
-"use client";
+'use client'
 
-import { FC, ChangeEvent } from "react";
-import { useRouter, usePathname } from "next/navigation";
+import { FC, ChangeEvent } from 'react'
+import { useRouter, usePathname } from 'next/navigation'
 
 export const LanguageSwitcher: FC = () => {
-  const router = useRouter();
-  const pathname = usePathname();
+  const router = useRouter()
+  const pathname = usePathname()
   const handleChange = (e: ChangeEvent<HTMLSelectElement>) => {
-    if (!e.target.value) return;
-    if (e.target.value === "ru") {
-      router.push("/ru");
+    if (!e.target.value) return
+    if (e.target.value === 'ru') {
+      router.push('/ru')
     } else {
-      router.push("/en");
+      router.push('/en')
     }
-    router.refresh();
-  };
+    router.refresh()
+  }
 
-  const isEnglish = pathname.startsWith("/en");
+  const isEnglish = pathname.startsWith('/en')
 
   return (
     <select
       onChange={handleChange}
-      className="bg-transparent focus:outline-none text-2xl mt-1 border-[1px] border-zinc-500 px-2 cursor-pointer rounded-lg"
+      className="mt-1 cursor-pointer rounded-lg border-[1px] border-zinc-500 bg-transparent px-2 text-2xl focus:outline-none"
     >
-      <option value={isEnglish ? "en" : "ru"}>{isEnglish ? "🇬🇧" : "🇷🇺"}</option>
-      <option value={isEnglish ? "ru" : "en"}>{isEnglish ? "🇷🇺" : "🇬🇧"}</option>
+      <option value={isEnglish ? 'en' : 'ru'}>{isEnglish ? '🇬🇧' : '🇷🇺'}</option>
+      <option value={isEnglish ? 'ru' : 'en'}>{isEnglish ? '🇷🇺' : '🇬🇧'}</option>
     </select>
-  );
-};
+  )
+}

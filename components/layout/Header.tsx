@@ -1,23 +1,20 @@
-import { FC } from "react";
-import { Logo } from "../common/Logo";
-import { LanguageSwitcher } from "./LanguageSwitcher";
-import { RiGithubFill } from "@remixicon/react";
-import { ThemeToggler } from "./ThemeToggler";
+import { FC } from 'react'
+import { Logo } from '../common/Logo'
+import { LanguageSwitcher } from './LanguageSwitcher'
+import { RiGithubFill } from '@remixicon/react'
+import { ThemeToggler } from './ThemeToggler'
 
 export const Header: FC = () => {
   return (
-    <header className="sticky top-0 left-0 p-4 md:p-8 flex items-center justify-between w-full z-10 backdrop-blur-md">
+    <header className="sticky left-0 top-0 z-10 flex w-full items-center justify-between p-4 backdrop-blur-md md:p-8">
       <Logo />
-      <div className="flex gap-3 items-center">
+      <div className="flex items-center gap-3">
         <ThemeToggler />
         <LanguageSwitcher />
-        <a
-          className="rounded-lg p-1"
-          href="https://github.com/ArseniyMuravyev/the-heroes"
-        >
+        <a className="rounded-lg p-1" href="https://github.com/ArseniyMuravyev/the-heroes">
           <RiGithubFill size={28} />
         </a>
       </div>
     </header>
-  );
-};
+  )
+}
