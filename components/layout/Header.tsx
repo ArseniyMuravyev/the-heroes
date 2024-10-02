@@ -1,7 +1,6 @@
 import { FC } from 'react'
 import { Logo } from '../common/Logo'
 import { LanguageSwitcher } from './LanguageSwitcher'
-import { RiGithubFill } from '@remixicon/react'
 import { ThemeToggler } from './ThemeToggler'
 
 export const Header: FC = () => {
@@ -11,9 +10,15 @@ export const Header: FC = () => {
       <div className="flex items-center gap-3">
         <ThemeToggler />
         <LanguageSwitcher />
-        <a className="rounded-lg p-1" href="https://github.com/ArseniyMuravyev/the-heroes">
+        {/*
+        <a
+          className="rounded-lg p-1"
+          href="https://github.com/ArseniyMuravyev/the-heroes"
+          target="_blank"
+        >
           <RiGithubFill size={28} />
         </a>
+				*/}
       </div>
     </header>
   )

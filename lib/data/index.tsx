@@ -87,5 +87,19 @@ export const heroCards: HeroCard[] = [
     biography: ['para1', 'para2', 'para3', 'para4'],
     books: [''],
     facts: ['']
+  },
+  {
+    title: 'Benjamin Franklin',
+    titleRu: 'Бенджамин Франклин',
+    src: '/benjamin-franklin.jpg',
+    images: [
+      '/benjamin-franklin.jpg',
+      '/benjamin-franklin-1.jpeg',
+      '/benjamin-franklin-2.jpg',
+      '/benjamin-franklin-3.jpg'
+    ],
+    biography: ['para1', 'para2', 'para3', 'para4'],
+    books: [''],
+    facts: ['']
   }
 ]
