@@ -86,7 +86,7 @@ export const heroCards: HeroCard[] = [
     ],
     biography: ['para1', 'para2', 'para3', 'para4'],
     books: [''],
-    facts: ['']
+    facts: ['fact1', 'fact2', 'fact3', 'fact4', 'fact5', 'fact6', 'fact7']
   },
   {
     title: 'Benjamin Franklin',

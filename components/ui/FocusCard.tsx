@@ -36,7 +36,7 @@ export function FocusCards({ cards }: { cards: HeroCard[] }) {
               <span>{t(`${card.title}.preview`)}</span>
               <Link
                 href={`${pathname}/${formatForLink(card.title)}`}
-                className="ml-1 inline-flex items-center gap-1 font-bold text-orange-500"
+                className="flex items-center gap-1 font-bold text-orange-500"
               >
                 {t('Common.more')}
                 <RiArrowRightLine size={16} />
