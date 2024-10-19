@@ -1,24 +1,20 @@
 'use client'
 
 import { FC, ChangeEvent } from 'react'
-import { useRouter, usePathname } from '@/i18n/routing'
+import { usePathname, useRouter } from 'next/navigation'
 
 export const LanguageSwitcher: FC = () => {
   const router = useRouter()
   const pathname = usePathname()
   const handleChange = (e: ChangeEvent<HTMLSelectElement>) => {
-    const newLocale = e.target.value
-    const segments = pathname.split('/')
-
-    if (segments[1] === 'ru' || segments[1] === 'en') {
-      segments.splice(1, 1) // Удаляем текущий префикс языка
+    const pathnameWithoutLocale = pathname.split('/')[2]
+    if (!e.target.value) return
+    if (e.target.value === 'ru') {
+      router.push(`/ru/${pathnameWithoutLocale}`)
+    } else {
+      router.push(`/en/${pathnameWithoutLocale}`)
     }
-
-    segments.splice(1, 0, newLocale)
-
-    const newPathname = segments.join('/')
-
-    router.replace(newPathname)
+    router.refresh()
   }
 
   const isEnglish = pathname.startsWith('/en')
